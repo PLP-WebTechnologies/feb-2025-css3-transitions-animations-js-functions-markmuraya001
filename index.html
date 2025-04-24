@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Webpage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Theme Toggle Section -->
+  <button id="theme-toggle-btn">Toggle Dark/Light Theme</button>
+
+  <!-- Welcome Section -->
+  <div id="welcome-section">
+    <h1 id="greeting-message">Welcome, Guest!</h1>
+    <p id="stored-name-message"></p>
+  </div>
+
+  <!-- Contact Form -->
+  <div id="contact-form-section">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+      <br><br>
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+      <br><br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
